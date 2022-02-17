@@ -1,8 +1,8 @@
 name: Release
 
 on:
-  workflow_dispatch
-  release:
+  - workflow_dispatch
+  - release:
     types: [published]
     branches: [ master ]
 
